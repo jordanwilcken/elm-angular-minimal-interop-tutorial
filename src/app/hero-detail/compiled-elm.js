@@ -8392,7 +8392,4 @@ for (var publicModule in Elm)
   globalElm[publicModule] = Elm[publicModule];
 }
 
-module.exports = Elm;
-
 }).call(this);
-

@@ -1,3 +1,5 @@
+//delete this comment
+
 import { Component, OnInit, Input, ElementRef, ViewChild, AfterViewChecked } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
@@ -5,7 +7,7 @@ import { Location } from '@angular/common';
 import { Hero }         from '../hero';
 import { HeroService }  from '../hero.service';
 
-import * as Elm from './elm.js'
+import * as Elm from './compiled-elm.js';
 
 @Component({
   selector: 'app-hero-detail',
@@ -27,7 +29,7 @@ export class HeroDetailComponent implements OnInit, AfterViewChecked {
   }
 
   ngAfterViewChecked() {
-    //to do: initialize Elm (if needed)
+
   }
 
   fight() {
