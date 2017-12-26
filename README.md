@@ -63,7 +63,7 @@ We'll finish up our setup by editing those hero-detail files we opened earlier. 
         <input [(ngModel)]="hero.name" placeholder="name"/>
     </label>
     
-    <span #elm id="elm-container></span>
+    <span #elm id="elm-container"></span>
 </div>
 
 ```
